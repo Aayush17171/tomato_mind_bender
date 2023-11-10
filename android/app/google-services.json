@@ -1,0 +1,29 @@
+  {
+  "project_info": {
+    "project_number": "812548201620",
+    "project_id": "tomato-7c7ea",
+    "storage_bucket": "tomato-7c7ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812548201620:android:41fce73b36e1719eef6881",
+        "android_client_info": {
+          "package_name": "com.aayu.tomatomindbender"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwF1qC3DEN19apOcmPds2leCbL-etJOHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
