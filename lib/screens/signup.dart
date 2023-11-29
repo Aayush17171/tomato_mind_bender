@@ -15,24 +15,24 @@ class SignupPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
-        appBar: AppBar(
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-          title: Center(
-            child: Text(
-              'Sign up Page',
-              style: TextStyle(color: Colors.black),
-            ),
-          ),
-          automaticallyImplyLeading:
-              false, // Set this property to false to remove the back button
-        ),
+        // appBar: AppBar(
+        //   backgroundColor: Colors.transparent,
+        //   elevation: 0,
+        //   title: Center(
+        //     child: Text(
+        //       'Sign up Page',
+        //       style: TextStyle(color: Colors.black),
+        //     ),
+        //   ),
+        //   automaticallyImplyLeading:
+        //       false, // Set this property to false to remove the back button
+        // ),
         body: SingleChildScrollView(
           child: Column(
             children: [
-              30.heightBox,
-              Image.asset('images/login.png'),
-              30.heightBox,
+              // 30.heightBox,
+              Image.asset('images/tomato_mind_bender_bg.png'),
+              // 30.heightBox,
               Column(
                 children: [
                   CustomTextField(

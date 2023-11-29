@@ -18,17 +18,17 @@ class MyDrawer extends StatelessWidget {
           ListTile(
             leading: Icon(
               Icons.settings,
-              color: Colors.black, // Set the icon color to black
+              color: Colors.deepPurple, // Set the icon color to black
             ),
             title: Text('Settings'),
             onTap: () {
-              // Handle Settings action
+              Navigator.pushNamed(context, MyRoutes.settingsRoute);
             },
           ),
           ListTile(
             leading: Icon(
               Icons.exit_to_app,
-              color: Colors.black, // Set the icon color to black
+              color: Colors.deepPurple, // Set the icon color to black
             ),
             title: Text('Log out'),
             onTap: () {

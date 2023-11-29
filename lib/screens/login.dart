@@ -15,24 +15,22 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
-        appBar: AppBar(
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-          title: Center(
-            child: Text(
-              'Log in Page',
-              style: TextStyle(color: Colors.black),
-            ),
-          ),
-          automaticallyImplyLeading:
-              false, // Set this property to false to remove the back button
-        ),
+        // appBar: AppBar(
+        //   backgroundColor: Colors.transparent,
+        //   elevation: 0,
+        //   title: Center(
+        //     child: Text(
+        //       'Log in Page',
+        //       style: TextStyle(color: Colors.black),
+        //     ),
+        //   ),
+        //   automaticallyImplyLeading:
+        //       false, // Set this property to false to remove the back button
+        // ),
         body: SingleChildScrollView(
           child: Column(
             children: [
-              50.heightBox,
-              Image.asset('images/login.png'),
-              30.heightBox,
+              Image.asset('images/tomato_mind_bender_bg.png'),
               Column(
                 children: [
                   CustomTextField(
@@ -47,14 +45,14 @@ class LoginPage extends StatelessWidget {
                     prefixIcon: Icons.lock,
                     controller: myController2,
                     isPassword: true,
-                    validator: (value) {
-                      if (value!.isEmpty) {
-                        return "Password cannot be empty";
-                      } else if (value.length < 6) {
-                        return "Password length should be at least 6";
-                      }
-                      return null;
-                    },
+                    // validator: (value) {
+                    //   if (value!.isEmpty) {
+                    //     return "Password cannot be empty";
+                    //   } else if (value.length < 6) {
+                    //     return "Password length should be at least 6";
+                    //   }
+                    //   return null;
+                    // },
                   ),
                 ],
               ),
