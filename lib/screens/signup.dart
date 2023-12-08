@@ -41,17 +41,19 @@ class SignupPage extends StatelessWidget {
                     prefixIcon: Icons.person,
                     controller: myController1,
                   ),
-                  CustomTextField(
-                    labelText: 'Enter your Email',
-                    hintText: 'Enter your Email',
-                    prefixIcon: Icons.mail,
-                    controller: myController1,
+                  TextFormField(
+                    decoration: InputDecoration(
+                      labelText: 'Enter your Email',
+                      hintText: 'Enter your Email',
+                      prefixIcon: Icon(Icons.mail),
+                    ),
                   ),
-                  CustomTextField(
-                    labelText: 'Enter your Phone Number',
-                    hintText: 'Enter your Phone Number',
-                    prefixIcon: Icons.phone,
-                    controller: myController1,
+                  TextFormField(
+                    decoration: InputDecoration(
+                      labelText: 'Enter your Phone Number',
+                      hintText: 'Enter your Phone Number',
+                      prefixIcon: Icon(Icons.phone),
+                    ),
                   ),
                   CustomTextField(
                     labelText: 'Enter your Password',

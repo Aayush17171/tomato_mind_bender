@@ -5,6 +5,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:game_tomato/customs/buttons.dart';
+import 'package:game_tomato/customs/route.dart';
 import 'package:game_tomato/customs/textfield.dart';
 import 'package:game_tomato/screens/home.dart';
 import 'package:http/http.dart' as http;
@@ -72,7 +73,12 @@ class _myBodyState extends State<myBody> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          CustomButton(text: 'Highest Level', onPressed: () {}),
+                          CustomButton(
+                            text: 'Rules',
+                            onPressed: () {
+                              Navigator.pushNamed(context, MyRoutes.rulesRoute);
+                            },
+                          ),
                           CustomButton(
                             text: 'Restart',
                             onPressed: () {
@@ -101,7 +107,7 @@ class _myBodyState extends State<myBody> {
                         ],
                       ),
                       25.heightBox,
-                      Image.network(question), 
+                      Image.network(question),
                       Text(
                           'Solution: $solution'), // It shows the correct answer
                       50.heightBox,

@@ -5,4 +5,5 @@ class MyRoutes {
   static String settingsRoute = '/settings';
   static String aboutgameRoute = '/aboutgame';
   static String contactusRoute = '/contactus';
+  static String rulesRoute = '/rules';
 }

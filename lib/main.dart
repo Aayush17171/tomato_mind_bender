@@ -6,6 +6,7 @@ import 'package:game_tomato/screens/settings.dart';
 import 'package:game_tomato/screens/signup.dart';
 import 'package:game_tomato/screens/sub_screens/about_game.dart';
 import 'package:game_tomato/screens/sub_screens/contact_us.dart';
+import 'package:game_tomato/screens/sub_screens/how_to_play.dart';
 
 void main() => runApp(MyApp());
 
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.settingsRoute: (context) => SettingsPage(),
         MyRoutes.aboutgameRoute: (context) => AboutGamePage(),
         MyRoutes.contactusRoute: (context) => ContactUsPage(),
+        MyRoutes.rulesRoute: (context) => RulesPage(),
       },
     );
   }
